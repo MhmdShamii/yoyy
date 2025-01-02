@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(231, 131, 231);
+    align-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow: hidden;
+}
+.buttons button {
+    padding: 10px 25px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: .2s;
+}
+.buttons button:hover{
+    background-color: rgb(88, 188, 255);
+}
+.yesInteraction{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    position: absolute;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.noInteraction{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(217, 0, 255);
+    position: absolute;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.shngalna{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(217, 0, 255);
+    position: absolute;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.shngalna img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+.hidden{
+    display: none;
+}
